@@ -14,7 +14,12 @@
 </header>
 
 <nav>
-    <ul>
+    <button class="hamburger-menu" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+    <ul id="main-nav">
         <li><a href="#services">Services</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -55,23 +60,31 @@
     <section id="portfolio">
         <h2>Portfolio</h2>
         <p>Take a look at some of the beautiful weddings we've managed.</p>
-        <div class="portfolio-image">
-        <div class="portfolio-images">
-        <img src="https://youthincmag.com/wp-content/uploads/2019/04/Wedding-trends-pinterest-1024x768.jpg" alt="Wedding 1" width="300" height="300"></div>
-        <div class="portfolio-images">
-        <img src="https://i.pinimg.com/564x/97/dc/b3/97dcb39531fc7969d5ca955ba082df79.jpg" alt="Wedding 3" width="300" height="300"></div>
-        <div class="portfolio-images">
-        <img src="https://i.pinimg.com/564x/aa/85/41/aa8541e9c0bf0c2a31716814c95a6634.jpg" alt="Wedding 4" width="300" height="300"></div>
-        <div class="portfolio-images">
-        <img src="https://i.pinimg.com/564x/d4/f9/b6/d4f9b69bcb36278e2e7c5c20d660f98d.jpg" alt="Wedding 5" width="300" height="300"></div>
-        <div class="portfolio-images">
-        <img src="https://i.pinimg.com/564x/4b/f5/06/4bf50632f60ed4a8c8bf2625aa03808a.jpg" alt="Wedding 6" width="300" height="300"></div>
-        <div class="portfolio-images">
-        <img src="https://i.pinimg.com/564x/34/68/c6/3468c6dc1ceb286b1a926b3915f8af57.jpg" alt="Wedding 7" width="300" height="300"></div>
-        <div class="portfolio-images">
-        <img src="https://i.pinimg.com/564x/b5/d3/6a/b5d36afe660d4e7c0233aa82ef926a8d.jpg" alt="Wedding 8" width="300" height="300"></div>
-        <div class="portfolio-images">
-        <img src="https://i.pinimg.com/564x/6c/73/58/6c7358bfe819f79a9f4393980ddd173a.jpg" alt="Wedding 9" width="300" height="300"></div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="https://youthincmag.com/wp-content/uploads/2019/04/Wedding-trends-pinterest-1024x768.jpg" alt="Wedding 1">
+            </div>
+            <div class="portfolio-item">
+                <img src="https://i.pinimg.com/564x/97/dc/b3/97dcb39531fc7969d5ca955ba082df79.jpg" alt="Wedding 3">
+            </div>
+            <div class="portfolio-item">
+                <img src="https://i.pinimg.com/564x/aa/85/41/aa8541e9c0bf0c2a31716814c95a6634.jpg" alt="Wedding 4">
+            </div>
+            <div class="portfolio-item">
+                <img src="https://i.pinimg.com/564x/d4/f9/b6/d4f9b69bcb36278e2e7c5c20d660f98d.jpg" alt="Wedding 5">
+            </div>
+            <div class="portfolio-item">
+                <img src="https://i.pinimg.com/564x/4b/f5/06/4bf50632f60ed4a8c8bf2625aa03808a.jpg" alt="Wedding 6">
+            </div>
+            <div class="portfolio-item">
+                <img src="https://i.pinimg.com/564x/34/68/c6/3468c6dc1ceb286b1a926b3915f8af57.jpg" alt="Wedding 7">
+            </div>
+            <div class="portfolio-item">
+                <img src="https://i.pinimg.com/564x/b5/d3/6a/b5d36afe660d4e7c0233aa82ef926a8d.jpg" alt="Wedding 8">
+            </div>
+            <div class="portfolio-item">
+                <img src="https://i.pinimg.com/564x/6c/73/58/6c7358bfe819f79a9f4393980ddd173a.jpg" alt="Wedding 9">
+            </div>
         </div>
     </section><br>
     <hr>
@@ -90,5 +103,6 @@
     &copy; 2023 Wedding Manager
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
